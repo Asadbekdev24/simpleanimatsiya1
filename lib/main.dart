@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_animation/animatsiya.dart';
 import 'package:flutter_application_animation/home.dart';
 import 'package:flutter_application_animation/matritsa.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context)
   {
     return MaterialApp(
-      home: HomeScreen(),
+      home: MyListView(),
     );
   }
 }
